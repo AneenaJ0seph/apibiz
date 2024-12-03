@@ -61,7 +61,7 @@ class _CategoryListState extends State<CategoryList> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => ProductList(category: category),
+                           builder: (context) => ProductList(category: category),
                         ),
                       );
                     },
